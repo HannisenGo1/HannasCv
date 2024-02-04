@@ -1,0 +1,127 @@
+.Projekt, .figma-github{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.Projekt img {
+	width: 300px;
+	height: 300px;
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 200px;
+	min-height: 200px;
+	border-radius: 90%;
+	margin-top: 3em;
+	scroll-snap-align: start;
+}
+
+.Projekt > button :active{
+	background-color: antiquewhite;
+}
+.battrewebb, .hangman, .pokemon, .produktsida, .design, .github {
+	flex: 0 0 auto;
+	background: none;
+	border: none;
+}
+.textcont2 {
+	margin-top: 0.2em;
+}
+.textcont3{
+	margin-top: 2em;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: flex;
+}
+
+
+.projekt-item {
+	flex: 0 0 auto;
+	margin-bottom:20px;
+}
+
+#nextBtn {
+	cursor: pointer;
+}
+.figma-github img {
+	width: 300px;
+	height: 300px;
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 200px;
+	min-height: 200px;
+	border-radius: 90%;
+	margin-top: 3em;
+	background: none;
+}
+.textcont3 > button {
+	background: none;
+}
+.design1  {
+	background: none;
+	border:none;
+}
+
+/* Kontakt information för css:*/
+
+.kontakt{
+	display:flex;
+	align-items: center;
+}
+.form-section {
+	flex-direction: column;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.form-section input{
+	width: 200px;
+	padding:7px;
+	margin: 0 auto;
+}
+
+.form-textning {
+	text-align: center;
+}
+/* Måste bli validerad */
+input:valid {
+	border-right: 0.3em solid green;
+}
+
+input:invalid {
+	border-right: 0.3em solid red;
+}
+
+.error-message {
+	visibility: hidden;
+	margin: 0;
+	color: red;
+	font-weight: bold;
+}
+.form-textning >button:active {
+	background-color: green;
+	align-items: center;
+}
+
+
+.kontakta img {
+	align-items: left;
+}
+.Hanna {
+	display: flex;
+	justify-content: center;
+	margin-top:1em;
+	margin-bottom: 1em;
+	padding:1em;
+}
+
+.Hanna img {
+	width: 100%;
+	max-width: 150px;
+	border-radius: 90%;
+}
