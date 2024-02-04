@@ -1,0 +1,72 @@
+
+/* Background: #D192e0   #active menybar: #E0a5af  
+#E0a6d3  ,  e0aDa6 ,  #FFd1e7
+ */
+header {
+	background-color: #E0A5AF;
+	justify-content: space-around;
+	align-items: center;
+
+	text-align: center;
+	width: 100%;
+}
+.menyBar :active{
+	color: #E0a6d3;
+}
+.menyBar {
+	display:flex;
+	padding:1em;
+	align-items: center;
+}
+.menyBar > button{
+	width:13em;
+	height: 3em;
+	background-color: #E0A5AF;
+	border: none;
+	font-size: 1.5em;
+}
+.menyBar >button:hover{
+background-color: #d297a1;
+}
+
+
+body {
+	display: flex;
+	align-items: center;
+	background-color: #f8dadf;
+	flex-direction: column;
+}
+
+h1 {
+	color: black;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 0.3em;
+	margin-bottom:1.5em;
+}
+
+h2 {
+	color: black;
+	font-size: 15px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+	color: black;
+	font-size: 13px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h2, h3{
+	display:inline;
+	margin-right: 2px;
+}
+
+h4 {
+	color:black;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+

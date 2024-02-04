@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+	header,body {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	header,body{
+		font-size: 10px;
+	}
+}
+
+/* Media query för mellanstora skärmar, exempelvis tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	header,body {
+		font-size: 15px;
+	}
+}
+
+/* Media query för större skärmar, exempelvis desktops */
+@media only screen and (min-width: 1025px) {
+	header,body {
+		font-size: 22px;
+	}
+}
+@media (max-width: 600px) {
+	.Projekt, .figma-github {
+		flex-direction: column;
+		align-items: center;
+	}
+}
